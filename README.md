@@ -6,6 +6,8 @@ I’m an Electronic Engineering senior at Tech University of Korea. I build and 
 
 ### Autonomous vehicle control · Team NSSUR project lead
 
+[Project repository and source download](https://github.com/oty-auto/nssur-autonomous-vehicle)
+
 - Led five electrical and software contributors. Integrated camera, LiDAR, GNSS, and IMU data in ROS 2, and connected the C++ control software to STM32F439 steering, braking, and drive control over CAN. Designed the controller interface PCB, laid out the board, and tested it after fabrication.
 - Replayed K-City sensor recordings to reproduce intermittent path loss, then revised how the controller retained and connected path updates. Added a guard against initial steering in the opposite direction and confirmed the corrected initial steering behavior at the wheels on the vehicle.
 - Tuned Pure Pursuit using recorded data and tested the vehicle at K-City. Pretests covered straight driving, intersection turns, restart after a three-second stop, and straight passage through a signalized intersection without manual intervention.
